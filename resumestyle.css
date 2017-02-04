@@ -1,6 +1,9 @@
 
-h1 {text-align:center;font-weight:bold;}
+h1 {font-size: 250%;text-align:center;font-weight:bold;}
+h2 {text-decoration:underline;font-weight:bold;line-height:50%}
 h3 {text-align:left;}
+body{font-family:"Times New Roman";line-height:150%}
+
 .centerDiv{
 	margin:0 auto;
 	border:3px solid; #0971B2;
@@ -8,3 +11,18 @@ h3 {text-align:left;}
 	background-color:white;
 	padding:20px;
 }
+
+.inDiv{
+	margin: 0 auto;
+	border: 1px solid;
+	width:90%;
+	background-color:white;
+	padding:5px;
+}
+	
+.col-left{
+float:left;width:33%;}
+.col-center{
+display:inline-block;width:33%;}
+.col-right{
+float:right;width:33%;}
